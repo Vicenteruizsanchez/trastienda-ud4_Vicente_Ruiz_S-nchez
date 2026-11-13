@@ -1,0 +1,13 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+}
+
+header {
+  background-color: #f3f4f6;
+}
+
+a {
+  /* color: #2563eb; */
+  color: red
+}

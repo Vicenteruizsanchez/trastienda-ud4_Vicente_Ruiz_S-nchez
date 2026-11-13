@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi cesta</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABECERA -->
+  <header>
+    <h1>Mi cesta</h1>
+    <p>2 artículos</p>
+  </header>
+
+  <main>
+    <!-- LISTA -->
+    <section aria-label="Artículos en la cesta">
+      <article>
+        <img src="img/la-paciente-silenciosa.jpg" alt="Portada de La paciente silenciosa">
+        <h2>La paciente silenciosa</h2>
+        <p>Alex Michaelides · Tapa dura</p>
+        <div>
+          <button type="button" aria-label="Quitar unidad">-</button>
+          <span>1</span>
+          <button type="button" aria-label="Añadir unidad">+</button>
+        </div>
+        <p>19,90 €</p>
+      </article>
+
+      <article>
+        <img src="img/el-silencio-ciudad-blanca.jpg" alt="Portada de El silencio de la ciudad blanca">
+        <h2>El silencio de la ciudad blanca</h2>
+        <p>Eva García Sáenz de Urturi · Ebook</p>
+        <div>
+          <button type="button" aria-label="Quitar unidad">-</button>
+          <span>1</span>
+          <button type="button" aria-label="Añadir unidad">+</button>
+        </div>
+        <p>9,99 €</p>
+      </article>
+    </section>
+
+    <!-- RESUMEN -->
+    <section aria-label="Resumen del pedido">
+      <p>Subtotal: <strong>29,89 €</strong></p>
+      <p>Envío: <strong>Gratis</strong></p>
+      <p>Total: <strong>29,89 €</strong></p>
+      <button type="button">Tramitar pedido</button>
+    </section>
+  </main>
+
+  <!-- BARRA -->
+  <nav aria-label="Navegación principal">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#">Explorar</a></li>
+      <li><a href="carrito.html" aria-current="page">Cesta</a></li>
+      <li><a href="#">Perfil</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
